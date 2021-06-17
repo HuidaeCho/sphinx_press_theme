@@ -4,7 +4,7 @@
     <div class="nav-item">
       <a href="{{ tree.href }}"
          class="nav-link {% if tree.current %} router-link-active{% endif %}">
-         {{tree.title}}
+         {{tree.title.capitalize()}}
       </a>
     </div>
   {% endfor %}
